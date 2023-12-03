@@ -47,7 +47,7 @@ class _AddTransDialogState extends State<AddTransDialog> {
             height: 10,
           ),
           TextField(
-            controller: titleCon,
+            controller: PriceCon,
             keyboardType: TextInputType.number,
             inputFormatters: [FilteringTextInputFormatter.digitsOnly],
             decoration: const InputDecoration(

@@ -11,9 +11,15 @@ class CategoriesStats extends StatefulWidget {
 }
 
 class _CategoriesStatsState extends State<CategoriesStats> {
-  List<String> categories = ['A', 'B', 'C', 'D'];
-  List<double> spends = [10, 20, 15, 7];
-  List<Color> colors = [Colors.red, Colors.blue, Colors.yellow, Colors.green];
+  List<String> categories = ['A', 'B', 'C', 'D', 'E'];
+  List<double> spends = [10, 20, 15, 7, 8];
+  List<Color> colors = [
+    Colors.red,
+    Colors.blue,
+    Colors.yellow,
+    Colors.green,
+    Colors.black
+  ];
 
   List<PieChartSectionData> sections() {
     List<PieChartSectionData> data = [];

@@ -27,7 +27,7 @@ class _DailyStatsState extends State<DailyStats> {
         backgroundColor: AppStyle.mainColor,
       ),
       body: Container(
-        padding: const EdgeInsets.fromLTRB(20, 30, 20, 50),
+        padding: const EdgeInsets.fromLTRB(20, 30, 20, 70),
         child: BarChart(
           BarChartData(
             barTouchData: barTouchData,
